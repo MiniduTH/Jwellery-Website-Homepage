@@ -40,6 +40,7 @@ header > img{
 nav ul{
     list-style-type: none;
     
+    text-align: center;
 }
 
 nav li{
@@ -49,10 +50,6 @@ nav li{
     color: #fff;
 }
 
-nav a:hover {
-    border: none; 
-    border-radius: 1rem;
-}
 
 li a {
     text-decoration: none;
@@ -60,11 +57,23 @@ li a {
     padding: .6rem;
 }
 
+nav a{
+    
+    border-radius: 1rem;
+}
+
+nav a.active {
+    color: #ffe4e4; 
+    background-color: #777777; 
+}
+
 nav a:hover {
     color: #000000; 
     background-color: #d3d3d3; 
+    border: none; 
 }
 
+ 
 section {
     display: flex;
 }
